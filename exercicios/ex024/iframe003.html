@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Faça uma escola</h1>    
+    <h1>Faça uma escolha</h1>    
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas excepturi ducimus ab nesciunt quo sit assumenda qui illo dolorum earum! Sequi velit distinctio enim omnis possimus vel quidem iusto doloremque. lorem
     </p>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus nesciunt repudiandae sunt fugit vitae, non delectus sed aut. Asperiores veritatis voluptate sunt quisquam? Inventore, nobis laborum nihil distinctio modi exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad doloribus sunt culpa recusandae officia temporibus pariatur at similique iusto vel doloremque, in quam non voluptatem itaque, error omnis ducimus voluptas.</p>
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus nesciunt repudiandae sunt fugit vitae, non delectus sed aut. Asperiores veritatis voluptate sunt quisquam? Inventore, nobis laborum nihil distinctio modi exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad doloribus sunt culpa recusandae officia temporibus pariatur at similique iusto vel doloremque, in quam non voluptatem itaque, error omnis ducimus voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum culpa earum obcaecati sint eius quod, repellat dolore modi magni voluptas nisi sit? Assumenda veritatis sint ad accusamus. Repellat, modi.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illum doloribus fugiat numquam, iure dolore praesentium assumenda sed alias laboriosam, nam laudantium earum optio tempora rerum cum eius molestias impedit!</p><img src='imagens/mascote.png'>">
+        <p>Infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit magni quod animi assumenda commodi nihil possimus totam! Consequatur, recusandae ipsum adipisci cum doloremque saepe eaque reiciendis minus at a sint! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et ea quae earum saepe provident, laborum rem cum nulla quibusdam, voluptatem similique reprehenderit repellat architecto nemo non odit veniam voluptatum consectetur.</p>
 </body>
 </html>
